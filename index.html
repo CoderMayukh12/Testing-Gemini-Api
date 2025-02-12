@@ -42,7 +42,7 @@
 
             try {
                 // Use the URL of your deployed serverless function once deployed
-                const response = await fetch("https://your-vercel-deployment-url.vercel.app/api/chat", {
+                const response = await fetch("https://testing-gemini-api.vercel.app/api/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ message: input })
